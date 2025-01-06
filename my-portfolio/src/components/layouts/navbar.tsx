@@ -10,10 +10,10 @@ interface NavItemProps {
 
 export default function NavMenu() {
   return (
-    <div className="flex w-full mx-auto shrink-0 overflow-hidden bg-bgbody">
+    <div className="flex w-full mx-auto shrink-0 overflow-hidden bg-custom-gradient">
       <div className="flex w-full h-20 md:h-24 bg-bgbody justify-between py-6 px-4 border border-b-2 border-strokeCus">
         <div className="flex md:hidden justify-between w-full">
-          <h1 className="w-32 h-9 font-normal text-2xl text-[#1F1919]">
+          <h1 className="w-32 h-9 font-bold text-2xl text-textcolor">
             PORTFOLIO
           </h1>
           <Image
@@ -25,8 +25,8 @@ export default function NavMenu() {
             loading="lazy"
           />
         </div>
-        <div className="hidden md:flex">
-          <h1 className="font-semibold text-4xl text-[#1F1919] top-6 px-36">
+        <div className="hidden md:flex md:justify-between md:w-full lg:justify-start lg:w-auto">
+          <h1 className="font-semibold text-4xl text-textcolor top-6 lg:px-36">
             PORTFOLIO
           </h1>
           <div className="flex space-x-1 pt-1">
@@ -50,7 +50,7 @@ function NavItem({ text, href }: NavItemProps) {
       className="flex items-center justify-center cursor-pointer rounded-full border border-strokeCus py-2 px-6 transition-all duration-300 whitespace-nowrap"
       onClick={() => router.push(href)}
     >
-      <p className={`font-normal text-sm text-[#1F1919]`}>{text}</p>
+      <p className={`font-normal text-sm text-textcolor`}>{text}</p>
     </div>
   );
 }
