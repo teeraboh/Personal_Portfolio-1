@@ -4,58 +4,53 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 interface ProjectProps {
-  imageSrc: string;
-  altText: string;
+  videoSrc: string;
   title: string;
   description: string;
 }
 
-const ProjectCard = ({
-  imageSrc,
-  altText,
-  title,
-  description,
-}: ProjectProps) => (
-  <div className="flex flex-col py-1 md:mx-10 lg:space-x-0 mt-6">
-    <div className="flex flex-col mx-12 md:mx-24">
-      <div className="flex flex-col items-center justify-center">
-        <h1 className="font-inter text-left text-base font-semibold text-textmed py-1">
+const ProjectCard = ({ videoSrc, title, description }: ProjectProps) => (
+  <div className="flex flex-col items-center justify-center w-full h-fit py-1 lg:space-x-0 mt-6 lg:rounded-lg lg:p-4 bg-custom-gradient">
+    <div className="flex flex-col lg:grid grid-cols-3 lg:space-x-0 lg:gap-12">
+      <div className="flex flex-col items-center justify-center lg:col-span-2 lg:items-start lg:justify-start">
+        <h1 className="font-inter text-left text-base font-semibold text-textmed py-1 lg:text-3xl lg:font-bold">
           {title}
         </h1>
         <div className="flex flex-col py-1">
-          <p className="text-center text-sm font-light text-textnorm py-1">
+          <p className="text-center text-sm font-light text-textnorm py-1 lg:text-start lg:text-xl ">
             {description}
           </p>
         </div>
       </div>
-      <div className="flex flex-col pt-1 space-y-3">
+      <div className="flex flex-col pt-1 space-y-3 mx-12 md:mx-48">
         <Button
           type="button"
           aria-label="Available for a new project"
-          className="cursor-pointer rounded-full bg-[#CDF4CD] py-2 px-10 mx-8 text-[#028C02] flex items-center justify-center gap-3 hover:bg-[#567056]"
+          className="cursor-none rounded-full bg-[#CDF4CD] py-2 px-10 text-[#028C02] flex items-center justify-center gap-3 hover:bg-[#CDF4CD]"
         >
-          <span className="inline-block w-3 h-3 font-semibold text-sm bg-[#028C02] rounded-full" />
+          <span className="inline-block w-3 h-3 font-semibold text-sm lg:text-xl bg-[#028C02] rounded-full" />
           <span>Case Study Project</span>
         </Button>
       </div>
     </div>
     <div className="flex flex-col w-full items-center justify-center pt-6">
-      <Image
-        src={imageSrc}
-        alt={altText}
-        width={347}
-        height={214}
-        className="brightness-100"
-        loading="lazy"
+      <video
+        src={videoSrc}
+        controls
+        preload="auto"
+        className="w-full lg:w-10/12 h-auto rounded-lg px-4 lg:px-0"
       />
     </div>
-    <div className="flex flex-col mx-12 mt-4">
+    <a
+      href="https://www.behance.net/gallery/216560607/Quickshop-E-com-platform"
+      className="flex flex-col mt-4 lg:pr-[42rem] lg:h-fit lg:items-start"
+    >
       <Button
         type="button"
         aria-label="View Project"
-        className="flex border border-textnorm rounded-full py-3 px-10 mt-1 cursor-pointer bg-custom-gradient"
+        className="flex border border-textnorm rounded-full py-3 px-32 lg:px-10 lg:rounded-lg mt-1 cursor-pointer bg-white hover:bg-[#3C3E44]"
       >
-        <span className="font-semibold text-sm text-textnorm">
+        <span className="font-semibold text-sm text-textnorm hover:text-white">
           View Project
         </span>
         <span className="inline-block">
@@ -73,68 +68,42 @@ const ProjectCard = ({
           </svg>
         </span>
       </Button>
-    </div>
+    </a>
   </div>
 );
 
 export default function ProjectPage() {
   const projects = [
     {
-      imageSrc: "/images/project.svg",
-      altText: "Profile picture of Zana Teeraboh",
-      title: "E-commerce web application",
+      videoSrc: "/videos/WhatsApp Video1.mp4",
+      title: "Quick-Shop E-commerce web and mobile application",
       description:
         "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
     },
     {
-      imageSrc: "/images/project.svg",
-      altText: "Profile picture of Zana Teeraboh",
-      title: "E-book web application",
-      description:
-        "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
-    },
-    {
-      imageSrc: "/images/project.svg",
-      altText: "Profile picture of Zana Teeraboh",
-      title: "HealthCare web application",
-      description:
-        "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
-    },
-    {
-      imageSrc: "/images/project.svg",
-      altText: "Profile picture of Zana Teeraboh",
-      title: "Fin-Tech web application",
+      videoSrc: "/videos/WhatsApp Video.mp4",
+      title: "Split-Ease mobile application",
       description:
         "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
     },
   ];
 
   return (
-    <section className="flex flex-col w-full justify-between">
-      <div className="flex flex-col w-fit h-fit px-4 my-6 items-center container bg-custom-gradient lg:w-full lg:py-20 lg:px-28">
-        <div className="flex flex-col items-center justify-center lg:flex-row lg:w-full lg:justify-between lg:px-20">
-          <h1 className="text-2xl font-medium text-textcolor text-center">
+    <section className="flex flex-col w-full justify-between bg-bg-custom-gradient overflow-hidden">
+      <div className="flex flex-col w-fit h-fit px-4 my-6 items-center justify-center container bg-custom-gradient lg:w-full lg:py-6 lg:px-28">
+        <div className="flex flex-col items-center justify-center lg:items-start lg:flex-row lg:w-full lg:justify-between lg:mb-9">
+          <h1 className="text-2xl font-medium text-textcolor text-center lg:items-start lg:text-4xl">
             PROJECT
           </h1>
-          <div className="hidden lg:flex pt-1 space-y-3">
-            <Button
-              type="button"
-              aria-label="Available for a new project"
-              className="cursor-pointer rounded-full bg-[#CDF4CD] py-2 px-12 text-[#028C02] flex items-center justify-center gap-3 hover:bg-[#567056]"
-            >
-              <span className="inline-block w-3 h-3 bg-[#028C02] rounded-full" />
-              <span>Case Study Project</span>
-            </Button>
-          </div>
         </div>
 
-        <div className="block space-y-12">
+        <div className="flex flex-col items-center justify-center w-fit h-fit space-y-12 lg:space-y-16">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
         </div>
       </div>
-      <hr className="my-6 sm:mx-auto border-[#E7E7E7] lg:my-auto" />
+      <hr className="my-6 sm:mx-auto border-[#E7E7E7] md:mb-4 md:mt-0 md:w-10/12" />
     </section>
   );
 }

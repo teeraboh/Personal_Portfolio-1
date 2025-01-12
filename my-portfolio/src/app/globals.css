@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -85,5 +89,9 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  .list-disc li::marker {
+    font-size: 1.5em;
   }
 }

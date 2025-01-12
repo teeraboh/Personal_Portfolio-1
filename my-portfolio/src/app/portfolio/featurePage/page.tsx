@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import {
   Carousel,
   CarouselContent,
@@ -45,13 +46,16 @@ const ProjectCard = ({
           </p>
         </div>
       </div>
-      <div className="flex flex-col">
+      <a
+        href="https://www.behance.net/gallery/216560607/Quickshop-E-com-platform"
+        className="flex flex-col"
+      >
         <Button
           type="button"
           aria-label="View Project"
-          className="flex border border-textnorm rounded-full py-3 px-10 mt-1 cursor-pointer bg-custom-gradient"
+          className="flex border border-textnorm rounded-full py-3 px-10 mt-1 cursor-pointer bg-white hover:bg-[#3C3E44]"
         >
-          <span className="font-semibold text-sm text-textnorm">
+          <span className="font-semibold text-sm text-textnorm hover:text-white">
             View Project
           </span>
           <span className="inline-block">
@@ -69,7 +73,7 @@ const ProjectCard = ({
             </svg>
           </span>
         </Button>
-      </div>
+      </a>
     </div>
   </div>
 );
@@ -113,7 +117,10 @@ export default function ProjectPage() {
           <h1 className="text-xl font-medium text-textnorm text-center">
             FEATURED PROJECT
           </h1>
-          <p className="hidden lg:flex gap-2">
+          <Link
+            href="/portfolio/projectPage"
+            className="hidden lg:flex gap-2 cursor-pointer"
+          >
             <span className="font-semibold text-sm text-textnorm">
               VIEW ALL PROJECTS
             </span>
@@ -131,7 +138,7 @@ export default function ProjectPage() {
                 />
               </svg>
             </span>
-          </p>
+          </Link>
         </div>
 
         <div className="block lg:hidden space-y-2">
@@ -152,9 +159,12 @@ export default function ProjectPage() {
             <CarouselNext />
           </Carousel>
         </div>
-        <h1 className="text-sm font-medium text-textcolor text-center pt-6 lg:hidden">
+        <Link
+          href="/portfolio/projectPage"
+          className="text-sm font-medium text-textcolor text-center cursor-pointer hover:text-textnorm pt-6 lg:hidden"
+        >
           VIEW ALL PROJECTS
-        </h1>
+        </Link>
       </div>
     </section>
   );

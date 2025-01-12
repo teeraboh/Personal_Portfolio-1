@@ -83,6 +83,9 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      listStyleImage: {
+        customEllipse: "url('/images/Ellipse2.svg')",
+      },
       fontFamily: {
         sans: ["sans-serif"],
         inter: ["Inter"],

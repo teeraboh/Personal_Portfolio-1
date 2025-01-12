@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -36,7 +37,7 @@ export default function AboutPage() {
                 alt="comma"
                 width={17}
                 height={15}
-                className="pb-60 md:pb-52 lg:pb-36"
+                className="pb-60 md:pb-40 md:pt-2 lg:pb-36"
                 loading="lazy"
               />
               <div className="flex flex-col py-2 lg:pt-10">
@@ -53,18 +54,17 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <Button
-              type="button"
-              aria-label="Click here to know more about me"
-              className="flex items-center justify-items-center border rounded-[33px] md:px-10 mt-1 cursor-pointer bg-custom-gradient md:my-0 lg:mb-2 lg:mt-4"
+            <Link
+              href="/portfolio/about"
+              className="flex items-center justify-items-center border rounded-[33px] px-6 ml-10 md:px-3 cursor-pointer bg-white hover:bg-[#3C3E44] md:mx-44 md:mt-0 lg:mb-2 lg:mt-4"
             >
-              <span className="font-semibold text-sm text-textnorm lg:text-lg">
+              <span className="font-semibold text-sm text-textnorm hover:text-white lg:text-lg py-2">
                 Click here to know more about me
               </span>
               <span className="inline-block">
                 <svg
-                  width="15"
-                  height="11"
+                  className="h-4 w-4 ml-1.5"
+                  aria-hidden="true"
                   viewBox="0 0 15 11"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ export default function AboutPage() {
                   />
                 </svg>
               </span>
-            </Button>
+            </Link>
           </div>
         </div>
       </div>

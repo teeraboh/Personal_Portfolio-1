@@ -14,7 +14,7 @@ export const LoadingIndicatorProvider = ({
       {children}
       <Next13ProgressBar
         height="2px"
-        color="#3B82F6"
+        color="#656565"
         options={{ showSpinner: true }}
         showOnShallow
       />

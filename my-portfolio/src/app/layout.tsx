@@ -7,8 +7,8 @@ import App from "@/components/layouts/app";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Workunlock - Land dollar jobs",
-  description: "Get dollar jobs with help from successful nigerians",
+  title: "PORTFOLIO",
+  description: "My personal PORTFOLIO website",
 };
 
 export default function RootLayout({
