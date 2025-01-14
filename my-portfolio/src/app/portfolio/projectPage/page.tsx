@@ -43,6 +43,8 @@ const ProjectCard = ({ videoSrc, title, description }: ProjectProps) => (
     </div>
     <a
       href="https://www.behance.net/gallery/216560607/Quickshop-E-com-platform"
+      rel="noopener noreferrer"
+      target="_blank"
       className="flex flex-col mt-4 lg:pr-[42rem] lg:h-fit lg:items-start"
     >
       <Button
@@ -84,7 +86,7 @@ export default function ProjectPage() {
       videoSrc: "/videos/WhatsApp Video.mp4",
       title: "Split-Ease mobile application",
       description:
-        "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
+        "the Splitease expense-sharing application, aiming to provide users with a seamless and user-friendly platform for splitting bills and managing shared expenses.",
     },
   ];
 

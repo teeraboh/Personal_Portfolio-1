@@ -146,7 +146,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
       <div className="flex flex-col w-fit h-fit px-4 my-6 items-center container bg-custom-gradient lg:w-full lg:h-fit lg:px-28">
         <div className="flex flex-col lg:gap-0">
           <div className="flex flex-col lg:flex-row">
-            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start lg:mt-10 lg:w-full">
+            <div className="flex flex-col items-center justify-center lg:justify-start lg:ml-4 lg:items-start lg:mt-10 lg:w-full">
               <h1 className="text-2xl font-medium text-textcolor text-center lg:items-start lg:text-4xl">
                 ABOUT
               </h1>
@@ -167,7 +167,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                 loading="lazy"
               />
             </div>
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center lg:ml-8 lg:pl-6">
               <div className="flex flex-col w-fit h-fit items-start justify-start mx-12 lg:mx-0 lg:mt-8 lg:w-fit">
                 <div className="flex flex-row lg:mx-8 ">
                   <Image

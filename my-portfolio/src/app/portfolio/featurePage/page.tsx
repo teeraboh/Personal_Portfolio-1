@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import {
   Carousel,
   CarouselContent,
@@ -16,6 +16,7 @@ interface ProjectProps {
   altText: string;
   title: string;
   description: string;
+  href: string;
 }
 
 const ProjectCard = ({
@@ -23,17 +24,20 @@ const ProjectCard = ({
   altText,
   title,
   description,
+  href,
 }: ProjectProps) => (
   <div className="flex flex-col py-1 md:mx-10 lg:space-x-0">
     <div className="flex flex-col w-full items-center justify-center pt-6">
-      <Image
-        src={imageSrc}
-        alt={altText}
-        width={347}
-        height={214}
-        className="brightness-100"
-        loading="lazy"
-      />
+      <div className="relative w-[347px] h-[214px]">
+        <Image
+          src={imageSrc}
+          alt={altText}
+          layout="fill"
+          objectFit="cover"
+          className="brightness-100 rounded-lg"
+          loading="lazy"
+        />
+      </div>
     </div>
     <div className="flex flex-col mx-12 md:mx-24">
       <div className="flex flex-col items-center justify-center">
@@ -41,18 +45,20 @@ const ProjectCard = ({
           {title}
         </h1>
         <div className="flex flex-col py-1">
-          <p className="text-center text-xs font-light text-textnorm py-1">
+          <p className="text-center text-xs font-light text-textnorm pt-1 pb-2 text-pretty">
             {description}
           </p>
         </div>
       </div>
       <a
-        href="https://www.behance.net/gallery/216560607/Quickshop-E-com-platform"
+        href={href}
+        rel="noopener noreferrer"
+        target="_blank"
         className="flex flex-col"
       >
         <Button
           type="button"
-          aria-label="View Project"
+          aria-label={`View project: ${title}`}
           className="flex border border-textnorm rounded-full py-3 px-10 mt-1 cursor-pointer bg-white hover:bg-[#3C3E44]"
         >
           <span className="font-semibold text-sm text-textnorm hover:text-white">
@@ -84,29 +90,15 @@ export default function ProjectPage() {
       imageSrc: "/images/project.svg",
       altText: "Profile picture of Zana Teeraboh",
       title: "E-commerce web application",
-      description:
-        "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
+      href: "https://www.behance.net/gallery/216560607/Quickshop-E-com-platform",
+      description: `Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.`,
     },
     {
-      imageSrc: "/images/project.svg",
+      imageSrc: "/images/Slice 1-split-ease.svg",
       altText: "Profile picture of Zana Teeraboh",
-      title: "E-commerce web application",
-      description:
-        "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
-    },
-    {
-      imageSrc: "/images/project.svg",
-      altText: "Profile picture of Zana Teeraboh",
-      title: "E-commerce web application",
-      description:
-        "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
-    },
-    {
-      imageSrc: "/images/project.svg",
-      altText: "Profile picture of Zana Teeraboh",
-      title: "E-commerce web application",
-      description:
-        "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
+      title: "Split-Ease mobile application",
+      href: "https://www.behance.net/gallery/216698545/Split-Ease?share=1",
+      description: `The Splitease expense-sharing application provides users with a seamless and user-friendly platform for splitting bills and managing shared expenses and more.`,
     },
   ];
 
@@ -142,13 +134,13 @@ export default function ProjectPage() {
         </div>
 
         <div className="block lg:hidden space-y-2">
-          {projects.slice(0, 2).map((project, index) => (
+          {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
         </div>
         <div className="hidden lg:block w-full space-x-0">
           <Carousel>
-            <CarouselContent className="">
+            <CarouselContent>
               {projects.map((project, index) => (
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
                   <ProjectCard {...project} />
