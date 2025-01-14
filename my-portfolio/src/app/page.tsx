@@ -26,7 +26,7 @@ const ContactLink = ({
     target="_blank"
   >
     <Image src={src} alt={alt} width={20} height={20} />
-    <p className="underline text-base font-normal text-textcolor underline-offset-8">
+    <p className="underline text-base font-normal text-textcolor underline-offset-8 hover:text-textnorm">
       {text}
     </p>
   </a>

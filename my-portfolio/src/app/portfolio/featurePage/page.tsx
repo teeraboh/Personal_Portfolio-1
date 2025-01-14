@@ -113,10 +113,10 @@ export default function ProjectPage() {
             href="/portfolio/projectPage"
             className="hidden lg:flex gap-2 cursor-pointer"
           >
-            <span className="font-semibold text-sm text-textnorm">
+            <span className="font-semibold text-sm text-textnorm hover:text-textnorm/50">
               VIEW ALL PROJECTS
             </span>
-            <span className="inline-block pt-1">
+            <span className="inline-block pt-1 transition-transform transform hover:scale-125">
               <svg
                 width="15"
                 height="11"
@@ -153,7 +153,7 @@ export default function ProjectPage() {
         </div>
         <Link
           href="/portfolio/projectPage"
-          className="text-sm font-medium text-textcolor text-center cursor-pointer hover:text-textnorm pt-6 lg:hidden"
+          className="text-sm font-medium text-textcolor text-center cursor-pointer transition-transform transform hover:scale-90 hover:text-textnorm pt-6 lg:hidden"
         >
           VIEW ALL PROJECTS
         </Link>
