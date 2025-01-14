@@ -3,7 +3,7 @@
 import { useState } from "react";
 import PrimaryButton from "@/components/PrimaryButton";
 import SecondaryButton from "@/components/SecondaryButton";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Button } from "@/components/ui/button";
 import AboutPage from "@/app/portfolio/aboutPage/page";
 import ProjectPage from "./portfolio/featurePage/page";
