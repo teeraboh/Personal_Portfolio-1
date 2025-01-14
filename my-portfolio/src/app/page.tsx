@@ -3,7 +3,7 @@
 import { useState } from "react";
 import PrimaryButton from "@/components/PrimaryButton";
 import SecondaryButton from "@/components/SecondaryButton";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import AboutPage from "@/app/portfolio/aboutPage/page";
 import ProjectPage from "./portfolio/featurePage/page";
@@ -59,6 +59,7 @@ export default function Home() {
               width={306}
               height={410}
               className="brightness-100 flex lg:hidden z-0"
+              quality={100}
               priority
             />
             <Image
@@ -67,6 +68,7 @@ export default function Home() {
               width={592}
               height={794}
               className="brightness-100 hidden lg:flex z-0"
+              quality={100}
               priority
             />
           </div>

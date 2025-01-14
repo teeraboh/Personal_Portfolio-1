@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -17,6 +17,7 @@ export default function AboutPage() {
               alt="Profile picture of Zana Teeraboh"
               width={203}
               height={286}
+              quality={100}
               className="brightness-100 mt-5 flex lg:hidden"
               loading="lazy"
             />
@@ -25,6 +26,7 @@ export default function AboutPage() {
               alt="Profile picture of Zana Teeraboh"
               width={275}
               height={358}
+              quality={100}
               className="brightness-100 mt-5 hidden lg:flex"
               loading="lazy"
             />

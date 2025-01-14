@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
@@ -34,6 +34,7 @@ const ProjectCard = ({
           alt={altText}
           layout="fill"
           objectFit="cover"
+          quality={100}
           className="brightness-100 rounded-lg"
           loading="lazy"
         />

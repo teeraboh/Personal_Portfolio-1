@@ -1,7 +1,6 @@
 "use client";
 
-import Image from "next/legacy/image";
-import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 interface ProjectProps {
   imageSrc: string;
@@ -34,6 +33,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
             width={130}
             height={150}
             className="brightness-100 my-3 flex"
+            quality={100}
             loading="lazy"
           />
         </div>
@@ -157,6 +157,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                 height={286}
                 className="brightness-100 mt-5 flex lg:hidden"
                 loading="lazy"
+                quality={100}
               />
               <Image
                 src="/images/WhatsAppImage3.png"
@@ -165,6 +166,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                 height={347}
                 className="brightness-100 hidden lg:flex lg:mt-8 lg:justify-center lg:items-center lg:ml-3"
                 loading="lazy"
+                quality={100}
               />
             </div>
             <div className="flex flex-col items-center justify-center lg:ml-8 lg:pl-6">
