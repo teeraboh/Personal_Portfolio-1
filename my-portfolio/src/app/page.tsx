@@ -112,7 +112,7 @@ export default function Home() {
             type="button"
             aria-label="Available for a new project"
             disabled={loading}
-            className="cursor-pointer rounded-full bg-[#CDF4CD] py-2 px-12 text-[#028C02] flex items-center justify-center gap-3 hover:bg-[#028C02]"
+            className="cursor-none rounded-full bg-[#CDF4CD] py-2 px-12 text-[#028C02] flex items-center justify-center gap-3 hover:bg-[#CDF4CD]"
           >
             <span className="inline-block w-3 h-3 bg-[#028C02] rounded-full" />
             <span>Available for a new project</span>
