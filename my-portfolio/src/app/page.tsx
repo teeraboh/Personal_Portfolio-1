@@ -43,7 +43,7 @@ export default function Home() {
             EXPLORE MY PORTFOLIO
           </h1>
         </div>
-        <div className="flex flex-col w-full items-center justify-center relative lg:flex-row lg:justify-between lg:px-10 lg:-mt-52">
+        <div className="flex flex-col w-full items-center justify-center lg:flex-row lg:justify-between lg:px-10 lg:-mt-52 lg:relative">
           <div className="lg:mb-24 lg:relative lg:w-[22rem] lg:h-[15.938rem]">
             <p className="text-center text-base font-medium text-textmed text-pretty italic lg:text-start lg:text-3xl">
               Hey, I’m Zana Teeraboh. A Junior Software Engineer,
@@ -52,7 +52,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex relative">
+          <div className="flex h-fit lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:pt-8">
             <Image
               src="/images/Image1.png"
               alt="logo"
@@ -84,7 +84,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col w-full items-center justify-center space-y-2 bg-bgbutton/70 lg:flex-row lg:py-16 lg:-mt-44">
+      <div className="h-32 w-full bg-transparent hidden lg:block"></div>
+
+      <section className="flex flex-col w-full items-center justify-center space-y-2 bg-bgbutton/70 lg:flex-row lg:py-12 z-10">
         <div className="grid grid-cols-2 gap-0">
           <PrimaryButton
             id="DownloadCv"
