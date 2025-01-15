@@ -43,8 +43,8 @@ export default function Home() {
             EXPLORE MY PORTFOLIO
           </h1>
         </div>
-        <div className="flex flex-col w-full items-center justify-center relative lg:flex-row lg:justify-between lg:px-10 lg:-mt-52">
-          <div className="lg:mb-24 lg:relative lg:w-[22rem] lg:h-[15.938rem]">
+        <div className="flex flex-col w-full items-center justify-center relative lg:flex-row lg:justify-between lg:px-10">
+          <div className="lg:mb-24 lg:w-[22rem] lg:h-[15.938rem]">
             <p className="text-center text-base font-medium text-textmed text-pretty italic lg:text-start lg:text-3xl">
               Hey, I’m Zana Teeraboh. A Junior Software Engineer,
               <br /> A Prompt Engineer, and a UI/UX
@@ -52,7 +52,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex relative">
+          <div className="flex">
             <Image
               src="/images/Image1.png"
               alt="logo"
@@ -73,7 +73,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="lg:mb-32 lg:relative lg:w-[24rem] lg:h-[14rem]">
+          <div className="lg:mb-32 lg:w-[24rem] lg:h-[14rem]">
             <p className="text-center text-sm font-normal text-textnorm italic text-pretty py-1 lg:text-right lg:text-2xl">
               Crafting seamless experiences and designing
               <br /> products that scale. Software engineering student
@@ -84,8 +84,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col w-full items-center justify-center space-y-2 bg-bgbutton/70 lg:flex-row lg:py-16 lg:-mt-44">
-        <div className="grid grid-cols-2 gap-0">
+      <section className="flex flex-col w-full items-center justify-center lg:flex-row lg:py-16 space-y-2">
+        <div className="grid grid-cols-2 gap-0 bg-slate-600">
           <PrimaryButton
             id="DownloadCv"
             type="button"
