@@ -41,7 +41,7 @@ export default function NavMenu() {
               <nav className="flex flex-col items-center gap-7 pt-4 mt-8">
                 <NavItem text="HOME" href="/" />
                 <NavItem text="ABOUT ME" href="/portfolio/about" />
-                <NavItem text="GET IN TOUCH" href="#get-in-touch" />
+                <NavItem text="GET IN TOUCH" href="/#get-in-touch" />
                 <NavItem text="PROJECTS" href="/portfolio/projectPage" />
               </nav>
               <SheetClose asChild></SheetClose>
