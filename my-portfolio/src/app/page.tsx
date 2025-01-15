@@ -84,9 +84,9 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="h-32 w-full bg-transparent hidden lg:block"></div>
+      <div className="h-20 w-full bg-transparent hidden lg:block"></div>
 
-      <section className="flex flex-col w-full items-center justify-center space-y-2 bg-bgbutton/70 lg:flex-row lg:py-12 z-10">
+      <section className="flex flex-col w-full items-center justify-center space-y-2 bg-bgbutton/70 lg:flex-row lg:py-12 lg:mx-8 z-10">
         <div className="grid grid-cols-2 gap-0">
           <PrimaryButton
             id="DownloadCv"
