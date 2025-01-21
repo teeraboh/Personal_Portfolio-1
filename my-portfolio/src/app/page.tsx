@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import PrimaryButton from "@/components/PrimaryButton";
 import SecondaryButton from "@/components/SecondaryButton";
 import Image from "next/image";
@@ -139,9 +139,10 @@ export default function Home() {
             GET IN TOUCH
           </h1>
           <p className="text-left text-xs font-normal text-textnorm pt-5 pb-2 lg:mb-6 lg:text-lg">
-            "Stay in touch! Contact me for collaborations, inquiries, or just to
-            chat."
+            &quot;Stay in touch! Contact me for collaborations, inquiries, or
+            just to chat.&quot;
           </p>
+
           <div className="flex flex-col items-center justify-center my-5">
             <h1 className="text-base font-semibold text-textcolor text-center pb-1 lg:text-xl">
               Chat with me via

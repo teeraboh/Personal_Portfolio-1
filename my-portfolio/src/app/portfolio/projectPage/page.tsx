@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/legacy/image";
+import React from "react";
 import { Button } from "@/components/ui/button";
 
 interface ProjectProps {

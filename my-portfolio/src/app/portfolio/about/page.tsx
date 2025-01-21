@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Image from "next/image";
 
 interface ProjectProps {
@@ -16,43 +17,45 @@ const ProjectCard: React.FC<ProjectProps> = ({
   title,
   heading,
   description,
-}) => (
-  <div className="flex flex-col space-y-2 items-start text-textnorm space-x-0 mx-5 lg:mx-0 lg:mt-3">
-    <ul className="list-outside list-disc space-y-4">
-      <li className="text-base text-start font-normal lg:grid grid-cols-5 lg:gap-12">
-        <div className="lg:mx-2">
-          <h1 className="hidden text-base text-start font-medium mb-4 text-textcolor lg:flex">
-            {title}
-          </h1>
-          <p className="text-sm font-medium text-textcolor text-start my-3 hidden lg:flex">
-            {heading}
-          </p>
-          <Image
-            src={imageSrc}
-            alt={altText}
-            width={130}
-            height={150}
-            className="brightness-100 my-3 flex"
-            quality={100}
-            loading="lazy"
-          />
-        </div>
+}) => {
+  return (
+    <div className="flex flex-col space-y-2 items-start text-textnorm space-x-0 mx-5 lg:mx-0 lg:mt-3">
+      <ul className="list-outside list-disc space-y-4">
+        <li className="text-base text-start font-normal lg:grid grid-cols-5 lg:gap-12">
+          <div className="lg:mx-2">
+            <h1 className="hidden text-base text-start font-medium mb-4 text-textcolor lg:flex">
+              {title}
+            </h1>
+            <p className="text-sm font-medium text-textcolor text-start my-3 hidden lg:flex">
+              {heading}
+            </p>
+            <Image
+              src={imageSrc}
+              alt={altText}
+              width={130}
+              height={150}
+              className="brightness-100 my-3 flex"
+              quality={100}
+              loading="lazy"
+            />
+          </div>
 
-        <div className="flex flex-col items-start lg:col-span-4">
-          <h1 className="text-base text-start font-medium mb-4 text-textcolor lg:hidden">
-            {title}
-          </h1>
-          <p className="text-sm font-medium text-textcolor text-center my-3 lg:hidden">
-            {heading}
-          </p>
-          <p className="text-sm font-normal text-textnorm italic text-start pb-3 mx-2 whitespace-pre-line text-pretty lg:py-10 lg:text-base lg:pb-0 lg:mt-7">
-            {description}
-          </p>
-        </div>
-      </li>
-    </ul>
-  </div>
-);
+          <div className="flex flex-col items-start lg:col-span-4">
+            <h1 className="text-base text-start font-medium mb-4 text-textcolor lg:hidden">
+              {title}
+            </h1>
+            <p className="text-sm font-medium text-textcolor text-center my-3 lg:hidden">
+              {heading}
+            </p>
+            <p className="text-sm font-normal text-textnorm italic text-start pb-3 mx-2 whitespace-pre-line text-pretty lg:py-10 lg:text-base lg:pb-0 lg:mt-7">
+              {description}
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  );
+};
 
 export default function AboutPage() {
   const journey = [
@@ -182,15 +185,16 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                   />
                   <div className="flex flex-col py-1 lg:pt-6">
                     <p className="text-sm font-normal text-textnorm italic text-center text-pretty lg:text-start lg:text-lg">
-                      Hello, I'm Zana Teeraboh, a passionate and detail-driven
-                      product designer with 3 years of experience in crafting
-                      intuitive and user-friendly experiences. Currently, I'm
-                      expanding my skill set as a student of Software
-                      Engineering at Miva Open University.
+                      Hello, I&apos;m Zana Teeraboh, a passionate and
+                      detail-driven product designer with 3 years of experience
+                      in crafting intuitive and user-friendly experiences.
+                      Currently, I&apos;m expanding my skill set as a student of
+                      Software Engineering at Miva Open University.
                     </p>
                     <p className="text-center text-sm font-normal text-textnorm italic py-1 pt-1 text-pretty lg:text-start lg:text-lg">
-                      I'm excited to bring my skills and experience to the
-                      table, and I'm looking forward to connecting with you!
+                      I&apos;m excited to bring my skills and experience to the
+                      table, and I&apos;m looking forward to connecting with
+                      you!
                     </p>
                   </div>
                 </div>

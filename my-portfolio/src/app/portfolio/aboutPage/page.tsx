@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -43,15 +44,15 @@ export default function AboutPage() {
               />
               <div className="flex flex-col py-2 lg:pt-10">
                 <p className="text-base font-normal text-textnorm italic text-center py-1 text-pretty lg:text-start lg:text-xl">
-                  Hello, I'm Zana Teeraboh, a passionate and detail-driven
+                  Hello, I&apos;m Zana Teeraboh, a passionate and detail-driven
                   product designer with 3 years of experience in crafting
-                  intuitive and user-friendly experiences. Currently, I'm
+                  intuitive and user-friendly experiences. Currently, I&apos;m
                   expanding my skill set as a student of Software Engineering at
                   Miva Open University.
                 </p>
                 <p className="text-center text-base font-normal text-textnorm italic py-1 pt-2 text-pretty lg:text-start lg:text-xl">
-                  I'm excited to bring my skills and experience to the table,
-                  and I'm looking forward to connecting with you!
+                  I&apos;m excited to bring my skills and experience to the
+                  table, and I&apos;m looking forward to connecting with you!
                 </p>
               </div>
             </div>
