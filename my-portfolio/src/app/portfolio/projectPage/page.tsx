@@ -92,7 +92,7 @@ export default function ProjectPage() {
 
   return (
     <section className="flex flex-col w-full justify-between bg-bg-custom-gradient overflow-hidden px-6">
-      <div className="flex flex-col w-full items-center justify-center py-6 lg:w-full lg:py-6 lg:px-28">
+      <div className="flex flex-col w-full items-center justify-center py-6 lg:items-start lg:w-full lg:py-10 lg:px-28">
         <h1 className="text-2xl font-medium text-textcolor text-center lg:items-start lg:text-4xl">
           PROJECT
         </h1>

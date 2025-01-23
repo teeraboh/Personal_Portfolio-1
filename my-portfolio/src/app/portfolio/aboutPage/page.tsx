@@ -58,9 +58,9 @@ export default function AboutPage() {
             </div>
             <Link
               href="/portfolio/about"
-              className="flex w-full items-center justify-items-center border rounded-[33px] px-4 mx-4 cursor-pointer bg-white hover:bg-[#3C3E44] md:w-fit md:px-3 md:mx-44 lg:mb-2 lg:w-fit"
+              className="flex w-60 items-center justify-items-center border rounded-[33px] px-4 mx-4 cursor-pointer bg-white hover:bg-[#3C3E44] md:w-fit md:px-3 md:mx-44 lg:mb-2 lg:w-fit"
             >
-              <span className="flex items-center font-semibold text-sm text-textnorm hover:text-white lg:text-lg py-2 mx-6">
+              <span className="flex items-center font-semibold text-sm text-textnorm hover:text-white lg:text-lg py-2 mx-4">
                 Learn more about me
               </span>
               <span className="inline-block">

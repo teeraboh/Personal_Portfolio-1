@@ -90,7 +90,7 @@ This experience has not only honed my skills but also reinforced my passion for 
 
   const interestsInspirations = [
     {
-      imageSrc: "/images/Frame1.png",
+      imageSrc: "/images/EnterGalactic.jpg",
       altText: "Movie picture of Zana Teeraboh",
       title: "MOVIES",
       heading: "ENTERGALACTIC",
@@ -98,7 +98,7 @@ This experience has not only honed my skills but also reinforced my passion for 
         "As a designer, I'm drawn to the vibrant, dreamlike quality of EnterGalactic. The way the animation seamlessly blends with the music is pure magic. But what truly resonates with me is the film's exploration of love, connection, and the human experience. The way it weaves together themes of identity, community, and the power of art to transcend boundaries... it's truly captivating. For me, EnterGalactic is more than just a movie – it's a reminder of the transformative power of love, art, and music to bring people together and inspire us to be our best selves",
     },
     {
-      imageSrc: "/images/Frame2.png",
+      imageSrc: "/images/3 IDIOTS.jpg",
       altText: "Movie picture of Zana Teeraboh",
       title: "MOVIES",
       heading: "3 IDIOTS",
