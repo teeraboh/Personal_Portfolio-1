@@ -4,9 +4,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-[[plugins]]
-  package = "@netlify/cache-utils"
-
-[plugins.inputs]
-  cache_paths = ["node_modules/**", ".next/**", "public/**"]
