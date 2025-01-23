@@ -46,7 +46,7 @@ export default function Home() {
         <div className="flex flex-col w-full items-center justify-center lg:flex-row lg:justify-between lg:px-10 lg:-mt-52 lg:relative">
           <div className="lg:mb-24 lg:relative lg:w-[22rem] lg:h-[15.938rem]">
             <p className="text-center text-base font-medium text-textmed text-pretty italic lg:text-start lg:text-3xl">
-              Hey, I’m Zana Teeraboh. A Junior Software Engineer,
+              Hey I&apos;m Zana Teeraboh. A UI/UX designer,
               <br /> A Prompt Engineer, and a UI/UX
               <br /> Designer{" "}
             </p>
@@ -75,10 +75,10 @@ export default function Home() {
 
           <div className="lg:mb-32 lg:w-[24rem] lg:h-[14rem]">
             <p className="text-center text-sm font-normal text-textnorm italic text-pretty py-1 lg:text-right lg:text-2xl">
-              Crafting seamless experiences and designing
+              Crafting seamless experience and designing
               <br /> products that scale. Software engineering student
-              <br /> by day, a creative thinker and innovating designer
-              <br /> by night.
+              <br /> by day at miva open university, creative thinker
+              <br /> and innovating designer by night
             </p>
           </div>
         </div>
@@ -87,14 +87,14 @@ export default function Home() {
       <div className="h-20 w-full bg-transparent hidden lg:block"></div>
 
       <section className="flex flex-col w-full items-center justify-center space-y-2 bg-bgbutton/70 lg:flex-row lg:py-12 lg:mx-8 z-10">
-        <div className="grid grid-cols-2 gap-0">
+        <div className="grid grid-cols-2 gap-0 mx-0">
           <PrimaryButton
             id="DownloadCv"
             type="button"
             aria-label="Download My Cv"
             text="Download My Cv"
             disabled={loading}
-            className="cursor-pointer rounded-full border border-[#3C3E44] py-2 px-6 bg-white text-[#3C3E44] hover:bg-[#3C3E44] hover:text-white"
+            className="cursor-pointer rounded-full border border-[#3C3E44] py-2 px-4 bg-white text-[#3C3E44] hover:bg-[#3C3E44] hover:text-white"
           />
           <a
             href="https://doodle.com/bp/fidelisteeraboh/schedule-a-call-with-teeraboh"
@@ -107,7 +107,7 @@ export default function Home() {
               aria-label="Book a Call With Me"
               text="Book a Call With Me"
               disabled={loading}
-              className="cursor-pointer rounded-full border border-[#3C3E44] py-2 px-6 bg-[#3C3E44] text-white hover:bg-white hover:text-[#3C3E44]"
+              className="cursor-pointer rounded-full border border-[#3C3E44] py-2 px-4 bg-[#3C3E44] text-white hover:bg-white hover:text-[#3C3E44]"
             />
           </a>
         </div>
@@ -138,7 +138,7 @@ export default function Home() {
           <h1 className="text-xl font-medium text-textnorm text-center lg:text-5xl lg:pt-3">
             GET IN TOUCH
           </h1>
-          <p className="text-left text-xs font-normal text-textnorm pt-5 pb-2 lg:mb-6 lg:text-lg">
+          <p className="text-center text-xs font-normal text-textnorm px-4 pt-5 pb-2 lg:mb-6 lg:px-0 lg:text-lg">
             &quot;Stay in touch! Contact me for collaborations, inquiries, or
             just to chat.&quot;
           </p>

@@ -172,15 +172,15 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                 quality={100}
               />
             </div>
-            <div className="flex flex-col items-center justify-center lg:ml-8 lg:pl-6">
-              <div className="flex flex-col w-fit h-fit items-start justify-start mx-12 lg:mx-0 lg:mt-8 lg:w-fit">
-                <div className="flex flex-row lg:mx-8 ">
+            <div className="flex flex-col items-center justify-center mt-5 lg:ml-8 lg:pl-6">
+              <div className="flex flex-col w-fit h-fit items-start justify-start mx-12 lg:mx-0 lg:mt-16 lg:w-fit">
+                <div className="flex flex-row lg:mx-8">
                   <Image
                     src="/images/comma.svg"
                     alt="comma"
                     width={17}
                     height={15}
-                    className="pb-60 md:pb-52 lg:pb-28"
+                    className="mb-96 lg:mb-60 lg:mt-5"
                     loading="lazy"
                   />
                   <div className="flex flex-col py-1 lg:pt-6">
@@ -191,7 +191,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                       Currently, I&apos;m expanding my skill set as a student of
                       Software Engineering at Miva Open University.
                     </p>
-                    <p className="text-center text-sm font-normal text-textnorm italic py-1 pt-1 text-pretty lg:text-start lg:text-lg">
+                    <p className="text-center text-sm font-normal text-textnorm italic pt-2 text-pretty lg:text-start lg:text-lg">
                       I&apos;m excited to bring my skills and experience to the
                       table, and I&apos;m looking forward to connecting with
                       you!
@@ -199,8 +199,8 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start lg:mx-12 lg:mt-1">
-                <h1 className="text-xl font-medium text-textcolor text-center my-4 lg:mt-0 lg:text-3xl">
+              <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start lg:mx-12">
+                <h1 className="text-xl font-medium text-textcolor text-center mb-4 lg:text-3xl">
                   My Skills
                 </h1>
                 <div className="flex flex-col items-start space-x-0 gap-2 mx-6 lg:flex-row lg:space-x-4 lg:mx-0">

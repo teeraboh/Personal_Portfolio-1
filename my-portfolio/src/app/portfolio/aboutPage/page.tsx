@@ -9,8 +9,8 @@ export default function AboutPage() {
     <section className="flex flex-col w-full justify-between space-y-4">
       <div className="flex flex-col w-fit h-fit pt-4 px-4 my-6 items-center container bg-custom-gradient lg:w-full lg:h-fit lg:px-28">
         <div className="flex flex-col lg:flex-row lg:gap-0 lg:space-x-0">
-          <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start pt-6 lg:pt-0">
-            <h1 className="text-xl font-medium text-textnorm text-center lg:text-left lg:mt-0 lg:text-4xl">
+          <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start pt-6">
+            <h1 className="text-xl font-medium text-textnorm text-center lg:text-left lg:text-4xl">
               ABOUT
             </h1>
             <Image
@@ -32,14 +32,14 @@ export default function AboutPage() {
               loading="lazy"
             />
           </div>
-          <div className="flex flex-col w-fit h-fit items-start justify-start mx-12 lg:px-24 lg:mt-10 lg:space-x-0 lg:w-full">
+          <div className="flex flex-col w-fit h-fit items-start justify-start pt-4 mx-12 lg:px-24 lg:mt-10  lg:pt-0 lg:space-x-0 lg:w-full">
             <div className="flex flex-row">
               <Image
                 src="/images/comma.svg"
                 alt="comma"
                 width={17}
                 height={15}
-                className="pb-60 md:pb-40 md:pt-2 lg:pb-36"
+                className="mb-96 pt-2 lg:mt-8 lg:mb-72"
                 loading="lazy"
               />
               <div className="flex flex-col py-2 lg:pt-10">
@@ -58,14 +58,14 @@ export default function AboutPage() {
             </div>
             <Link
               href="/portfolio/about"
-              className="flex items-center justify-items-center border rounded-[33px] px-6 ml-10 md:px-3 cursor-pointer bg-white hover:bg-[#3C3E44] md:mx-44 md:mt-0 lg:mb-2 lg:mt-4"
+              className="flex w-full items-center justify-items-center border rounded-[33px] px-4 mx-4 cursor-pointer bg-white hover:bg-[#3C3E44] md:w-fit md:px-3 md:mx-44 lg:mb-2 lg:w-fit"
             >
-              <span className="font-semibold text-sm text-textnorm hover:text-white lg:text-lg py-2">
-                Click here to know more about me
+              <span className="flex items-center font-semibold text-sm text-textnorm hover:text-white lg:text-lg py-2 mx-6">
+                Learn more about me
               </span>
               <span className="inline-block">
                 <svg
-                  className="h-4 w-4 ml-1.5"
+                  className="h-4 w-4 mx-0"
                   aria-hidden="true"
                   viewBox="0 0 15 11"
                   fill="none"
