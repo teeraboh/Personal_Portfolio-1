@@ -90,7 +90,7 @@ This experience has not only honed my skills but also reinforced my passion for 
 
   const interestsInspirations = [
     {
-      imageSrc: "/images/EnterGalactic.jpg",
+      imageSrc: "/images/movie.svg",
       altText: "Movie picture of Zana Teeraboh",
       title: "MOVIES",
       heading: "ENTERGALACTIC",
@@ -98,7 +98,7 @@ This experience has not only honed my skills but also reinforced my passion for 
         "As a designer, I'm drawn to the vibrant, dreamlike quality of EnterGalactic. The way the animation seamlessly blends with the music is pure magic. But what truly resonates with me is the film's exploration of love, connection, and the human experience. The way it weaves together themes of identity, community, and the power of art to transcend boundaries... it's truly captivating. For me, EnterGalactic is more than just a movie – it's a reminder of the transformative power of love, art, and music to bring people together and inspire us to be our best selves",
     },
     {
-      imageSrc: "/images/3 IDIOTS.jpg",
+      imageSrc: "/images/movie2.svg",
       altText: "Movie picture of Zana Teeraboh",
       title: "MOVIES",
       heading: "3 IDIOTS",
@@ -106,7 +106,7 @@ This experience has not only honed my skills but also reinforced my passion for 
         "This Bollywood masterpiece never fails to make me laugh, cry, and reflect on the true meaning of success. As a designer, I appreciate the film's offbeat approach to storytelling and its celebration of creativity, innovation, and out-of-the-box thinking. But what resonates with me most is the movie's emphasis on the importance of following your heart, pursuing your passions, and staying true to yourself. The iconic character of Rancho, with his 'chase excellence, success will follow' mantra, is a constant reminder to me to stay focused on my goals and never compromise on my values.",
     },
     {
-      imageSrc: "/images/Frame3.png",
+      imageSrc: "/images/music.svg",
       altText: "Music picture of Zana Teeraboh",
       title: "MUSIC",
       heading: "BURNA BOY",
@@ -114,7 +114,7 @@ This experience has not only honed my skills but also reinforced my passion for 
         "Burna Boy's Grammy-winning album is more than just a masterpiece of Afrobeat music – it's a testament to the power of cultural fusion and creative experimentation. As a designer, I find inspiration in the way Burna Boy blends different styles and genres to create something entirely new and innovative. The album's eclectic mix of rhythms, melodies, and lyrics reminds me to stay open to new influences, take risks, and push the boundaries of what's possible in my design work. Whenever I need a boost of creativity, I put on 'Twice As Tall' and let the infectious energy and innovative spirit of Burna Boy's music spark new ideas and inspiration",
     },
     {
-      imageSrc: "/images/Frame4.png",
+      imageSrc: "/images/book.svg",
       altText: "Book picture of Zana Teeraboh",
       title: "BOOKS",
       heading: "REFACTORING UI",
@@ -122,7 +122,7 @@ This experience has not only honed my skills but also reinforced my passion for 
         "This book is my design bible. I return to it again and again for inspiration, guidance, and a refreshing dose of design wisdom. Adam and Steve's practical, no-nonsense approach to UI design has been a game-changer for me, helping me simplify my design process, focus on what matters, and create interfaces that are both beautiful and functional. Whether I'm tackling a new design project or refining an existing one, Refactoring UI is always within arm's reach, reminding me to stay focused on the user, keep it simple, and continuously iterate towards perfection.",
     },
     {
-      imageSrc: "/images/Frame5.png",
+      imageSrc: "/images/book1.svg",
       altText: "Book picture of Zana Teeraboh",
       title: "BOOKS",
       heading: "THE DESIGN OF EVERYDAY THINGS",
@@ -130,7 +130,7 @@ This experience has not only honed my skills but also reinforced my passion for 
         "This classic design book has been a revelation for me, offering a profound understanding of how design shapes our interactions with the world around us. Don Norman's insightful exploration of the psychology of everyday objects has taught me to see design as a holistic process that encompasses not just aesthetics, but also functionality, usability, and emotional connection. As I navigate the complexities of design, this book remains a trusted companion, reminding me to prioritize clarity, simplicity, and user-centeredness in every project I undertake",
     },
     {
-      imageSrc: "/images/Frame6.png",
+      imageSrc: "/images/game.svg",
       altText: "Game picture of Zana Teeraboh",
       title: "GAMES",
       heading: "CALL ON DUTY",
@@ -154,7 +154,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                 ABOUT
               </h1>
               <Image
-                src="/images/WhatsAppImage.png"
+                src="/images/mobile2.svg"
                 alt="Profile picture of Zana Teeraboh"
                 width={203}
                 height={286}
@@ -163,7 +163,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                 quality={100}
               />
               <Image
-                src="/images/WhatsAppImage3.png"
+                src="/images/person1.svg"
                 alt="Profile picture of Zana Teeraboh"
                 width={275}
                 height={347}

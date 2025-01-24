@@ -44,17 +44,17 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex flex-col w-full items-center justify-center lg:flex-row lg:justify-between lg:px-10 lg:-mt-52 lg:relative">
-          <div className="lg:mb-24 lg:relative lg:w-[22rem] lg:h-[15.938rem]">
+          <div className="mb-4 lg:mb-28 lg:relative lg:w-[22rem] lg:h-[15.938rem]">
             <p className="text-center text-base font-medium text-textmed text-pretty italic lg:text-start lg:text-3xl">
-              Hey I&apos;m Zana Teeraboh. A UI/UX designer,
-              <br /> A Prompt Engineer, and a UI/UX
-              <br /> Designer{" "}
+              Hey, I&apos;m Zana Teeraboh, a passionate UI/UX designer.
+              <br /> Dedicated to creating intuitive and engaging user
+              <br /> experiences. Let's make something amazing together!
             </p>
           </div>
 
           <div className="flex h-fit lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:pt-8">
             <Image
-              src="/images/Image1.png"
+              src="/images/mobile1.svg"
               alt="logo"
               width={306}
               height={410}
@@ -63,7 +63,7 @@ export default function Home() {
               priority
             />
             <Image
-              src="/images/Image2.png"
+              src="/images/person.svg"
               alt="logo"
               width={592}
               height={794}

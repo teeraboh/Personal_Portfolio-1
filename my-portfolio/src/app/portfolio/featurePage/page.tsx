@@ -106,7 +106,7 @@ export default function ProjectPage() {
 
   return (
     <section className="flex flex-col w-full justify-between space-y-4">
-      <div className="flex flex-col w-fit h-fit pt-4 px-4 my-6 items-center container bg-custom-gradient lg:w-full lg:py-20 lg:px-28">
+      <div className="flex flex-col w-fit h-fit pt-4 px-4 mt-6 mb-2 items-center container bg-custom-gradient lg:w-full lg:py-20 lg:px-28">
         <div className="flex flex-col items-center justify-center lg:flex-row lg:w-full lg:justify-between lg:px-20">
           <h1 className="text-xl font-medium text-textnorm text-center">
             FEATURED PROJECT
@@ -155,7 +155,7 @@ export default function ProjectPage() {
         </div>
         <Link
           href="/portfolio/projectPage"
-          className="text-sm font-medium text-textcolor text-center cursor-pointer transition-transform transform hover:scale-90 hover:text-textnorm pt-6 lg:hidden"
+          className="underline underline-offset-2 text-sm font-medium text-textcolor text-center cursor-pointer transition-transform transform hover:scale-90 hover:text-textnorm mt-10 lg:hidden"
         >
           VIEW ALL PROJECTS
         </Link>

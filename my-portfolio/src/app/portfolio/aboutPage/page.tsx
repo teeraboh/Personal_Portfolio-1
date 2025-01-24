@@ -14,7 +14,7 @@ export default function AboutPage() {
               ABOUT
             </h1>
             <Image
-              src="/images/WhatsAppImage.png"
+              src="/images/mobile.svg"
               alt="Profile picture of Zana Teeraboh"
               width={203}
               height={286}
@@ -23,7 +23,7 @@ export default function AboutPage() {
               loading="lazy"
             />
             <Image
-              src="/images/WhatsAppImage1.png"
+              src="/images/person1.svg"
               alt="Profile picture of Zana Teeraboh"
               width={275}
               height={358}
