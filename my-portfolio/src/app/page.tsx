@@ -46,9 +46,9 @@ export default function Home() {
         <div className="flex flex-col w-full items-center justify-center lg:flex-row lg:justify-between lg:px-10 lg:-mt-52 lg:relative">
           <div className="mb-4 lg:mb-28 lg:relative lg:w-[22rem] lg:h-[15.938rem]">
             <p className="text-center text-base font-medium text-textmed text-pretty italic lg:text-start lg:text-3xl">
-              Hey, I&apos;m Zana Teeraboh, a passionate UI/UX designer.
-              <br /> Dedicated to creating intuitive and engaging user
-              <br /> experiences. Let&apos;s make something amazing together!
+              Hey, I&apos;m Zana Teeraboh, a passionate
+              <br /> UI/UX designer. Dedicated to creating
+              <br /> intuitive and engaging user experiences.
             </p>
           </div>
 
@@ -134,7 +134,7 @@ export default function Home() {
       </section>
 
       <section id="get-in-touch">
-        <div className="flex flex-col items-center justify-center mt-3 mb-5 bg-custom-gradient">
+        <div className="flex flex-col items-center justify-center mt-5 mb-5 bg-custom-gradient">
           <h1 className="text-xl font-medium text-textnorm text-center lg:text-5xl lg:pt-3">
             GET IN TOUCH
           </h1>
