@@ -48,7 +48,7 @@ export default function Home() {
             <p className="text-center text-base font-medium text-textmed text-pretty italic lg:text-start lg:text-3xl">
               Hey, I&apos;m Zana Teeraboh, a passionate UI/UX designer.
               <br /> Dedicated to creating intuitive and engaging user
-              <br /> experiences. Let's make something amazing together!
+              <br /> experiences. Let&apos;s make something amazing together!
             </p>
           </div>
 
