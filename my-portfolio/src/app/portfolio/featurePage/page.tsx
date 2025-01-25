@@ -35,9 +35,9 @@ const ProjectCard = ({
           alt={altText}
           layout="fill"
           objectFit="cover"
-          quality={100}
           className="brightness-100 rounded-lg"
-          loading="lazy"
+          quality={90}
+          priority
         />
       </div>
     </div>
@@ -89,7 +89,8 @@ const ProjectCard = ({
 export default function ProjectPage() {
   const projects = [
     {
-      imageSrc: "/images/project.svg",
+      imageSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759748/images/m4zjtgerpdeawiguuzq3.svg",
       altText: "Profile picture of Zana Teeraboh",
       title: "E-commerce web application",
       href: "https://www.behance.net/gallery/216560607/Quickshop-E-com-platform",
@@ -113,6 +114,7 @@ export default function ProjectPage() {
           </h1>
           <Link
             href="/portfolio/projectPage"
+            rel="preload"
             className="hidden lg:flex gap-2 cursor-pointer"
           >
             <span className="font-semibold text-sm text-textnorm hover:text-textnorm/50">
@@ -155,6 +157,7 @@ export default function ProjectPage() {
         </div>
         <Link
           href="/portfolio/projectPage"
+          rel="preload"
           className="underline underline-offset-2 text-sm font-medium text-textcolor text-center cursor-pointer transition-transform transform hover:scale-90 hover:text-textnorm mt-10 lg:hidden"
         >
           VIEW ALL PROJECTS

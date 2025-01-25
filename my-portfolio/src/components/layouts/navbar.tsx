@@ -11,11 +11,6 @@ import {
   SheetClose,
 } from "@/components/ui/sheet";
 
-interface NavItemProps {
-  text: string;
-  href: string;
-}
-
 export default function NavMenu() {
   return (
     <div className="flex w-full mx-auto shrink-0 overflow-hidden bg-custom-gradient">
@@ -27,12 +22,12 @@ export default function NavMenu() {
           <Sheet>
             <SheetTrigger asChild>
               <Image
-                src="/images/menu.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759731/images/fzdq2kfk6eu0y1ixkgyh.svg"
                 alt="menu"
                 width={24}
                 height={24}
                 className="brightness-100 contrast-75 cursor-pointer"
-                loading="lazy"
+                priority
               />
             </SheetTrigger>
             <SheetContent className="w-7/12 h-screen pr-16 items-start justify-start">
@@ -40,7 +35,7 @@ export default function NavMenu() {
                 <h1 className="font-semibold text-xl text-textcolor">Menu</h1>
               </SheetHeader>
               <nav className="flex flex-col items-center gap-7 pt-4 mt-8">
-                <NavItem text="HOME" href="/" />
+                <NavItem href="/" text="HOME" />
                 <NavItem text="ABOUT ME" href="/portfolio/about" />
                 <NavItem text="GET IN TOUCH" href="/#get-in-touch" />
                 <NavItem text="PROJECTS" href="/portfolio/projectPage" />
@@ -55,7 +50,7 @@ export default function NavMenu() {
             PORTFOLIO
           </h1>
           <nav className="flex space-x-4">
-            <NavItem text="HOME" href="/" />
+            <NavItem href="/" text="HOME" />
             <NavItem text="ABOUT ME" href="/portfolio/about" />
             <NavItem text="GET IN TOUCH" href="/#get-in-touch" />
             <NavItem text="PROJECTS" href="/portfolio/projectPage" />
@@ -66,22 +61,27 @@ export default function NavMenu() {
   );
 }
 
-function NavItem({ text, href }: NavItemProps) {
+const NavItem = ({ href, text }: { href: string; text: string }) => {
   const pathname = usePathname();
   const router = useRouter();
 
-  const isActive = pathname === href;
+  const isActive = pathname && (pathname === href || pathname.startsWith(href));
 
   return (
-    <div
-      className={`flex items-center justify-center cursor-pointer rounded-full border border-strokeCus py-2 px-6 whitespace-nowrap ${
-        isActive ? "bg-[#3C3E44] text-white" : "hover:bg-[#3C3E44]"
+    <a
+      href={href}
+      rel="preload"
+      className={`flex items-center justify-center cursor-pointer rounded-full border border-strokeCus py-2 px-6 whitespace-nowrap transition-all duration-300 ${
+        isActive
+          ? "bg-[#3C3E44] text-white hover:bg-white hover:text-[#3C3E44]"
+          : "hover:bg-[#3C3E44] hover:text-white"
       }`}
-      onClick={() => router.push(href)}
+      onClick={(e) => {
+        e.preventDefault();
+        router.push(href);
+      }}
     >
-      <p className="font-normal text-sm text-textcolor hover:text-white">
-        {text}
-      </p>
-    </div>
+      {text}
+    </a>
   );
-}
+};

@@ -35,8 +35,8 @@ const ProjectCard: React.FC<ProjectProps> = ({
               width={130}
               height={150}
               className="brightness-100 my-3 flex"
-              quality={100}
-              loading="lazy"
+              quality={90}
+              priority
             />
           </div>
 
@@ -90,7 +90,8 @@ This experience has not only honed my skills but also reinforced my passion for 
 
   const interestsInspirations = [
     {
-      imageSrc: "/images/movie.svg",
+      imageSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759736/images/bwstaatywwaxqwmrmbq4.svg",
       altText: "Movie picture of Zana Teeraboh",
       title: "MOVIES",
       heading: "ENTERGALACTIC",
@@ -98,7 +99,8 @@ This experience has not only honed my skills but also reinforced my passion for 
         "As a designer, I'm drawn to the vibrant, dreamlike quality of EnterGalactic. The way the animation seamlessly blends with the music is pure magic. But what truly resonates with me is the film's exploration of love, connection, and the human experience. The way it weaves together themes of identity, community, and the power of art to transcend boundaries... it's truly captivating. For me, EnterGalactic is more than just a movie – it's a reminder of the transformative power of love, art, and music to bring people together and inspire us to be our best selves",
     },
     {
-      imageSrc: "/images/movie2.svg",
+      imageSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759737/images/pxsnlzn7lax2ddwzbbvi.svg",
       altText: "Movie picture of Zana Teeraboh",
       title: "MOVIES",
       heading: "3 IDIOTS",
@@ -106,7 +108,8 @@ This experience has not only honed my skills but also reinforced my passion for 
         "This Bollywood masterpiece never fails to make me laugh, cry, and reflect on the true meaning of success. As a designer, I appreciate the film's offbeat approach to storytelling and its celebration of creativity, innovation, and out-of-the-box thinking. But what resonates with me most is the movie's emphasis on the importance of following your heart, pursuing your passions, and staying true to yourself. The iconic character of Rancho, with his 'chase excellence, success will follow' mantra, is a constant reminder to me to stay focused on my goals and never compromise on my values.",
     },
     {
-      imageSrc: "/images/music.svg",
+      imageSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759738/images/vil8advrmaitgh1ltzoh.svg",
       altText: "Music picture of Zana Teeraboh",
       title: "MUSIC",
       heading: "BURNA BOY",
@@ -114,7 +117,8 @@ This experience has not only honed my skills but also reinforced my passion for 
         "Burna Boy's Grammy-winning album is more than just a masterpiece of Afrobeat music – it's a testament to the power of cultural fusion and creative experimentation. As a designer, I find inspiration in the way Burna Boy blends different styles and genres to create something entirely new and innovative. The album's eclectic mix of rhythms, melodies, and lyrics reminds me to stay open to new influences, take risks, and push the boundaries of what's possible in my design work. Whenever I need a boost of creativity, I put on 'Twice As Tall' and let the infectious energy and innovative spirit of Burna Boy's music spark new ideas and inspiration",
     },
     {
-      imageSrc: "/images/book.svg",
+      imageSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759731/images/mwrijl3ovyl3sm1y8a2i.svg",
       altText: "Book picture of Zana Teeraboh",
       title: "BOOKS",
       heading: "REFACTORING UI",
@@ -122,7 +126,8 @@ This experience has not only honed my skills but also reinforced my passion for 
         "This book is my design bible. I return to it again and again for inspiration, guidance, and a refreshing dose of design wisdom. Adam and Steve's practical, no-nonsense approach to UI design has been a game-changer for me, helping me simplify my design process, focus on what matters, and create interfaces that are both beautiful and functional. Whether I'm tackling a new design project or refining an existing one, Refactoring UI is always within arm's reach, reminding me to stay focused on the user, keep it simple, and continuously iterate towards perfection.",
     },
     {
-      imageSrc: "/images/book1.svg",
+      imageSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759733/images/u0klpjglgpaash0cx7au.svg",
       altText: "Book picture of Zana Teeraboh",
       title: "BOOKS",
       heading: "THE DESIGN OF EVERYDAY THINGS",
@@ -130,7 +135,8 @@ This experience has not only honed my skills but also reinforced my passion for 
         "This classic design book has been a revelation for me, offering a profound understanding of how design shapes our interactions with the world around us. Don Norman's insightful exploration of the psychology of everyday objects has taught me to see design as a holistic process that encompasses not just aesthetics, but also functionality, usability, and emotional connection. As I navigate the complexities of design, this book remains a trusted companion, reminding me to prioritize clarity, simplicity, and user-centeredness in every project I undertake",
     },
     {
-      imageSrc: "/images/game.svg",
+      imageSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759735/images/zeswquj0oijtzh2ybwam.svg",
       altText: "Game picture of Zana Teeraboh",
       title: "GAMES",
       heading: "CALL ON DUTY",
@@ -154,34 +160,35 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                 ABOUT
               </h1>
               <Image
-                src="/images/mobile2.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759733/images/qngg3zwch0tgb7gyju0g.svg"
                 alt="Profile picture of Zana Teeraboh"
-                width={203}
-                height={286}
+                width={205}
+                height={287}
                 className="brightness-100 mt-5 flex lg:hidden"
-                loading="lazy"
-                quality={100}
+                quality={90}
+                priority
               />
               <Image
-                src="/images/person1.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759738/images/kswnkevm1nmjj0v6aqzz.svg"
                 alt="Profile picture of Zana Teeraboh"
                 width={275}
                 height={347}
                 className="brightness-100 hidden lg:flex lg:mt-8 lg:justify-center lg:items-center lg:ml-3"
-                loading="lazy"
-                quality={100}
+                quality={90}
+                priority
               />
             </div>
             <div className="flex flex-col items-center justify-center mt-5 lg:ml-8 lg:pl-6">
               <div className="flex flex-col w-fit h-fit items-start justify-start mx-12 lg:mx-0 lg:mt-16 lg:w-fit">
                 <div className="flex flex-row lg:mx-8">
                   <Image
-                    src="/images/comma.svg"
+                    src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759733/images/u5rrhwbjly5funbaqxnk.svg"
                     alt="comma"
                     width={17}
                     height={15}
                     className="mb-96 lg:mb-60 lg:mt-5"
-                    loading="lazy"
+                    quality={90}
+                    priority
                   />
                   <div className="flex flex-col py-1 lg:pt-6">
                     <p className="text-sm font-normal text-textnorm italic text-center text-pretty lg:text-start lg:text-lg">

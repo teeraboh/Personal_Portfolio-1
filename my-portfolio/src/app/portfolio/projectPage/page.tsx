@@ -77,13 +77,15 @@ const ProjectCard = ({ videoSrc, title, description }: ProjectProps) => (
 export default function ProjectPage() {
   const projects = [
     {
-      videoSrc: "/videos/WhatsApp Video1.mp4",
+      videoSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/video/upload/v1737760397/videos/agtnu2tj8wizdd6vustn.mp4",
       title: "Quick-Shop E-commerce web and mobile application",
       description:
         "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
     },
     {
-      videoSrc: "/videos/WhatsApp Video.mp4",
+      videoSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/video/upload/v1737760400/videos/i3mzlmqvlhrfoi7v977i.mp4",
       title: "Split-Ease mobile application",
       description:
         "The Splitease expense-sharing application, aiming to provide users with a seamless and user-friendly platform for splitting bills and managing shared expenses.",

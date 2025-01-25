@@ -14,33 +14,34 @@ export default function AboutPage() {
               ABOUT
             </h1>
             <Image
-              src="/images/mobile.svg"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759733/images/qngg3zwch0tgb7gyju0g.svg"
               alt="Profile picture of Zana Teeraboh"
-              width={203}
-              height={286}
-              quality={100}
+              width={205}
+              height={287}
               className="brightness-100 mt-5 flex lg:hidden"
-              loading="lazy"
+              quality={90}
+              priority
             />
             <Image
-              src="/images/person1.svg"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759738/images/kswnkevm1nmjj0v6aqzz.svg"
               alt="Profile picture of Zana Teeraboh"
               width={275}
               height={358}
-              quality={100}
               className="brightness-100 mt-5 hidden lg:flex"
-              loading="lazy"
+              quality={90}
+              priority
             />
           </div>
           <div className="flex flex-col w-fit h-fit items-start justify-start pt-4 mx-12 lg:px-24 lg:mt-10  lg:pt-0 lg:space-x-0 lg:w-full">
             <div className="flex flex-row">
               <Image
-                src="/images/comma.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759733/images/u5rrhwbjly5funbaqxnk.svg"
                 alt="comma"
                 width={17}
                 height={15}
                 className="mb-96 pt-2 lg:mt-8 lg:mb-72"
-                loading="lazy"
+                quality={90}
+                priority
               />
               <div className="flex flex-col py-2 lg:pt-10">
                 <p className="text-base font-normal text-textnorm italic text-center py-1 text-pretty lg:text-start lg:text-xl">
@@ -58,6 +59,7 @@ export default function AboutPage() {
             </div>
             <Link
               href="/portfolio/about"
+              rel="preload"
               className="flex w-60 items-center justify-items-center border rounded-[33px] px-4 mx-4 cursor-pointer bg-white hover:bg-[#3C3E44] md:w-fit md:px-3 md:mx-44 lg:mb-2 lg:w-fit"
             >
               <span className="flex items-center font-semibold text-sm text-textnorm hover:text-white lg:text-lg py-2 mx-4">

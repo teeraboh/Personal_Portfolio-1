@@ -25,7 +25,7 @@ const ContactLink = ({
     rel="noopener noreferrer"
     target="_blank"
   >
-    <Image src={src} alt={alt} width={20} height={20} />
+    <Image src={src} alt={alt} width={20} height={20} priority />
     <p className="underline text-base font-normal text-textcolor underline-offset-8 hover:text-textnorm">
       {text}
     </p>
@@ -54,7 +54,7 @@ export default function Home() {
 
           <div className="flex h-fit lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:pt-8">
             <Image
-              src="/images/mobile1.svg"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759734/images/aqael0mp9cwh2hbzgbdt.svg"
               alt="logo"
               width={306}
               height={410}
@@ -63,7 +63,7 @@ export default function Home() {
               priority
             />
             <Image
-              src="/images/person.svg"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759738/images/osvjdfbjedcdrbhqk8cx.svg"
               alt="logo"
               width={592}
               height={794}
@@ -154,25 +154,26 @@ export default function Home() {
             <div className="flex flex-col items-start gap-4 px-8 py-2 my-6">
               <ContactLink
                 href="mailto:teeraboh@gmail.com"
-                src="/images/ic_outline-email.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759738/images/twgggrztoaej8mxs9v3n.svg"
                 alt="Email Icon"
                 text="Shoot me a mail"
               />
               <ContactLink
                 href="https://x.com/fideliszana?s=21"
-                src="/images/devicon_twitter.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759734/images/fsqtz9ct8yll2ppzz5z7.svg"
                 alt="Twitter Icon"
                 text="Follow me on X"
               />
               <ContactLink
                 href="https://www.instagram.com/teerabohuix?igsh=cHM4Ym9xOTMzYjdt&utm_source=qr"
-                src="/images/hugeicons_instagram.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759736/images/q8ovitvo4spkiivbagnv.svg"
                 alt="Instagram Icon"
                 text="Follow me on IG"
               />
             </div>
             <a
               href="mailto:teeraboh@gmail.com"
+              rel="preload"
               className="flex w-full px-10 md:px-14 lg:px-0"
             >
               <SecondaryButton
