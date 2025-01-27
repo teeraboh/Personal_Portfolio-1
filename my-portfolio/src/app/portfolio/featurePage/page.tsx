@@ -97,7 +97,8 @@ export default function ProjectPage() {
       description: `Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.`,
     },
     {
-      imageSrc: "/images/Slice 1-split-ease.svg",
+      imageSrc:
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738008479/images/jr9dnlrci2omc4rpx1to.webp",
       altText: "Profile picture of Zana Teeraboh",
       title: "Split-Ease mobile application",
       href: "https://www.behance.net/gallery/216698545/Split-Ease?share=1",
