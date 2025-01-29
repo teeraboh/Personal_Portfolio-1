@@ -7,27 +7,27 @@ const Footer = () => {
   const socialLinks = [
     {
       href: "https://www.instagram.com/teerabohuix?igsh=cHM4Ym9xOTMzYjdt&utm_source=qr",
-      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759737/images/zclwbe1656nqxuosxuto.svg",
+      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738172140/images/wxe71gxub7tihdrxez5q.svg",
       alt: "Instagram logo",
     },
     {
       href: "https://dribbble.com/teeraboh",
-      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759731/images/ougwv3bj3bzvmzlvtjld.svg",
+      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738172139/images/rmaxmonbutfym0e0i2cr.svg",
       alt: "Dribbble logo",
     },
     {
       href: "https://www.behance.net/fidelisteeraboh",
-      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759731/images/k3wejuk7mmtmwkbmqg05.svg",
+      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738172139/images/gs5kpyskqrub5nvhemob.svg",
       alt: "Behance logo",
     },
     {
       href: "https://www.linkedin.com/in/teeraboh-z-7b5922141?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759736/images/fi25dpswndi6fpw8nmmz.svg",
+      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738172139/images/gq4h4tqjynefikned9qz.svg",
       alt: "LinkedIn logo",
     },
     {
       href: "https://github.com/teeraboh",
-      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759735/images/iqnaaptdmqryruezqvfk.svg",
+      src: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738172139/images/oh4bpfgn0xgqalkwz0bx.svg",
       alt: "GitHub logo",
     },
   ];

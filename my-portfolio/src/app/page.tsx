@@ -5,8 +5,8 @@ import PrimaryButton from "@/components/PrimaryButton";
 import SecondaryButton from "@/components/SecondaryButton";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import AboutPage from "@/app/portfolio/aboutPage/page";
-import ProjectPage from "./portfolio/featurePage/page";
+import AboutPage from "@/app/portfolio/about-page/page";
+import ProjectPage from "./portfolio/feature-page/page";
 
 const ContactLink = ({
   href,
@@ -54,7 +54,7 @@ export default function Home() {
 
           <div className="flex h-fit lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:pt-8">
             <Image
-              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759734/images/aqael0mp9cwh2hbzgbdt.svg"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738163567/images/vz58cabed5tplmuspshe.webp"
               alt="logo"
               width={306}
               height={410}
@@ -63,7 +63,7 @@ export default function Home() {
               priority
             />
             <Image
-              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759738/images/osvjdfbjedcdrbhqk8cx.svg"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738163422/images/dbozr0kpbnqouktglxa3.webp"
               alt="logo"
               width={592}
               height={794}
@@ -88,14 +88,21 @@ export default function Home() {
 
       <section className="flex flex-col w-full items-center justify-center space-y-2 bg-bgbutton/70 lg:flex-row lg:py-12 lg:mx-8 z-10">
         <div className="grid grid-cols-2 gap-0 mx-0">
-          <PrimaryButton
-            id="DownloadCv"
-            type="button"
-            aria-label="Download My Cv"
-            text="Download My Cv"
-            disabled={loading}
-            className="cursor-pointer rounded-full border border-[#3C3E44] py-2 px-4 bg-white text-[#3C3E44] hover:bg-[#3C3E44] hover:text-white"
-          />
+          <a
+            href="https://docs.google.com/document/d/1PxbPgSDaQ70SNYaiBZcfmjWkY1w7Om2gV6T1hky9EJo/edit"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <PrimaryButton
+              id="DownloadCv"
+              type="button"
+              aria-label="Download My Cv"
+              text="Download My Cv"
+              disabled={loading}
+              className="cursor-pointer rounded-full border border-[#3C3E44] py-2 px-4 bg-white text-[#3C3E44] hover:bg-[#3C3E44] hover:text-white"
+            />
+          </a>
+
           <a
             href="https://doodle.com/bp/fidelisteeraboh/schedule-a-call-with-teeraboh"
             rel="noopener noreferrer"
@@ -154,19 +161,19 @@ export default function Home() {
             <div className="flex flex-col items-start gap-4 px-8 py-2 my-6">
               <ContactLink
                 href="mailto:teeraboh@gmail.com"
-                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759738/images/twgggrztoaej8mxs9v3n.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738171575/images/y6kpf9uv7dkfr9ofpiev.svg"
                 alt="Email Icon"
                 text="Shoot me a mail"
               />
               <ContactLink
                 href="https://x.com/fideliszana?s=21"
-                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759734/images/fsqtz9ct8yll2ppzz5z7.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738171575/images/ee2d9efxv3batnuvoegu.svg"
                 alt="Twitter Icon"
                 text="Follow me on X"
               />
               <ContactLink
                 href="https://www.instagram.com/teerabohuix?igsh=cHM4Ym9xOTMzYjdt&utm_source=qr"
-                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1737759736/images/q8ovitvo4spkiivbagnv.svg"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738171575/images/apu5glqobhmjq51gjtza.svg"
                 alt="Instagram Icon"
                 text="Follow me on IG"
               />
