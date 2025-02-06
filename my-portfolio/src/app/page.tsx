@@ -54,7 +54,7 @@ export default function Home() {
 
           <div className="flex h-fit lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:pt-8">
             <Image
-              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738163567/images/vz58cabed5tplmuspshe.webp"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602217/image/eyonlgq26kgkqhjasmbd.svg"
               alt="logo"
               width={306}
               height={410}
@@ -63,7 +63,7 @@ export default function Home() {
               priority
             />
             <Image
-              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738163422/images/dbozr0kpbnqouktglxa3.webp"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602217/image/f7awqphmdytjozdhmbcm.svg"
               alt="logo"
               width={592}
               height={794}

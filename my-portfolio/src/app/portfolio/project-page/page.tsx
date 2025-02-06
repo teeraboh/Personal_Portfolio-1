@@ -5,11 +5,12 @@ import { Button } from "@/components/ui/button";
 
 interface ProjectProps {
   videoSrc: string;
+  href: string;
   title: string;
   description: string;
 }
 
-const ProjectCard = ({ videoSrc, title, description }: ProjectProps) => (
+const ProjectCard = ({ videoSrc, title, description, href }: ProjectProps) => (
   <div className="flex flex-col items-center justify-center w-full h-fit mt-6 lg:rounded-lg lg:p-4 bg-custom-gradient">
     <div className="flex flex-col items-center justify-center lg:items-start lg:justify-start lg:grid grid-cols-3 lg:space-x-0 lg:gap-12">
       <div className="flex flex-col items-center justify-center lg:col-span-2 lg:items-start lg:justify-start">
@@ -42,7 +43,7 @@ const ProjectCard = ({ videoSrc, title, description }: ProjectProps) => (
       />
     </div>
     <a
-      href="https://www.behance.net/gallery/216560607/Quickshop-E-com-platform"
+      href={href}
       rel="noopener noreferrer"
       target="_blank"
       className="flex flex-col mt-4 lg:pr-[42rem] lg:h-fit lg:items-start"
@@ -82,6 +83,7 @@ export default function ProjectPage() {
       title: "Quick-Shop E-commerce web and mobile application",
       description:
         "Crafting seamless experience and designing products that scale. A software engineering student by day, a creative thinker and innovative designer by night.",
+      href: "https://www.behance.net/gallery/216560607/Quickshop-E-com-platform",
     },
     {
       videoSrc:
@@ -89,6 +91,7 @@ export default function ProjectPage() {
       title: "Split-Ease mobile application",
       description:
         "The Splitease expense-sharing application, aiming to provide users with a seamless and user-friendly platform for splitting bills and managing shared expenses.",
+      href: "https://www.behance.net/gallery/216698545/Split-Ease?share=1",
     },
   ];
 
