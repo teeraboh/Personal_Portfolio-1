@@ -14,7 +14,7 @@ export default function AboutPage() {
               ABOUT
             </h1>
             <Image
-              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738163967/images/gzvq7bxtgf9d4r4swwet.webp"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602215/image/tsfcu2izu5ikfymxu0ul.svg"
               alt="Profile picture of Zana Teeraboh"
               width={205}
               height={287}
@@ -23,7 +23,7 @@ export default function AboutPage() {
               priority
             />
             <Image
-              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738163084/images/wzd7ymno5rcgoq5brdjb.webp"
+              src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602217/image/lvpz1ums7s1xqnm7en1w.svg"
               alt="Profile picture of Zana Teeraboh"
               width={275}
               height={358}
@@ -35,7 +35,7 @@ export default function AboutPage() {
           <div className="flex flex-col w-fit h-fit items-start justify-start pt-4 mx-12 lg:px-24 lg:mt-10  lg:pt-0 lg:space-x-0 lg:w-full">
             <div className="flex flex-row">
               <Image
-                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738166305/images/z67e8srw09aiddqzjdmb.webp"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602534/image/ggro01mlpmawssffr3lu.svg"
                 alt="comma"
                 width={17}
                 height={15}

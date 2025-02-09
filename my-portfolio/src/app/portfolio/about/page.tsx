@@ -91,7 +91,7 @@ This experience has not only honed my skills but also reinforced my passion for 
   const interestsInspirations = [
     {
       imageSrc:
-        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738165783/images/e7kusgsneazzve0soqu6.webp",
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602214/image/svmf0e4uejjniiypu9so.svg",
       altText: "Movie picture of Zana Teeraboh",
       title: "MOVIES",
       heading: "ENTERGALACTIC",
@@ -100,7 +100,7 @@ This experience has not only honed my skills but also reinforced my passion for 
     },
     {
       imageSrc:
-        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738164436/images/xg6q8yfqlvymuljfzmyg.webp",
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602214/image/rmxhbj8agwaakfdkmmmn.svg",
       altText: "Movie picture of Zana Teeraboh",
       title: "MOVIES",
       heading: "3 IDIOTS",
@@ -109,7 +109,7 @@ This experience has not only honed my skills but also reinforced my passion for 
     },
     {
       imageSrc:
-        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738164306/images/vnj8nknmax8amm3l5dvz.webp",
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738607666/image/thunpcphjr0hxkbntjvo.svg",
       altText: "Music picture of Zana Teeraboh",
       title: "MUSIC",
       heading: "BURNA BOY",
@@ -118,7 +118,7 @@ This experience has not only honed my skills but also reinforced my passion for 
     },
     {
       imageSrc:
-        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738166148/images/juz1hxivk1unbibwv9rc.webp",
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602214/image/akwwhuzrudkouruefwhx.svg",
       altText: "Book picture of Zana Teeraboh",
       title: "BOOKS",
       heading: "REFACTORING UI",
@@ -127,7 +127,7 @@ This experience has not only honed my skills but also reinforced my passion for 
     },
     {
       imageSrc:
-        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738166037/images/ahu8zii1ymnpwzt9btms.webp",
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602214/image/kur1xq8pflzo8fld8jli.svg",
       altText: "Book picture of Zana Teeraboh",
       title: "BOOKS",
       heading: "THE DESIGN OF EVERYDAY THINGS",
@@ -136,7 +136,7 @@ This experience has not only honed my skills but also reinforced my passion for 
     },
     {
       imageSrc:
-        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738165890/images/xvm5hebdzfsvitxv4sfz.webp",
+        "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602217/image/eibreykwxstr6yzg8nku.svg",
       altText: "Game picture of Zana Teeraboh",
       title: "GAMES",
       heading: "CALL ON DUTY",
@@ -160,7 +160,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                 ABOUT
               </h1>
               <Image
-                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738163967/images/gzvq7bxtgf9d4r4swwet.webp"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602215/image/tsfcu2izu5ikfymxu0ul.svg"
                 alt="Profile picture of Zana Teeraboh"
                 width={205}
                 height={287}
@@ -169,7 +169,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
                 priority
               />
               <Image
-                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738163084/images/wzd7ymno5rcgoq5brdjb.webp"
+                src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602217/image/n2c7zhd2fayxxpnj1odm.svg"
                 alt="Profile picture of Zana Teeraboh"
                 width={275}
                 height={347}
@@ -182,7 +182,7 @@ So, the next time someone asks me why I spend time playing Call of Duty, I'll te
               <div className="flex flex-col w-fit h-fit items-start justify-start mx-12 lg:mx-0 lg:mt-16 lg:w-fit">
                 <div className="flex flex-row lg:mx-8">
                   <Image
-                    src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738166305/images/z67e8srw09aiddqzjdmb.webp"
+                    src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1738602534/image/ggro01mlpmawssffr3lu.svg"
                     alt="comma"
                     width={17}
                     height={15}
