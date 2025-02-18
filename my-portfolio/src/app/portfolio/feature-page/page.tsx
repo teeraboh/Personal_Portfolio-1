@@ -114,7 +114,7 @@ export default function ProjectPage() {
             FEATURED PROJECT
           </h1>
           <Link
-            href="/portfolio/projectPage"
+            href="/portfolio/project-Page"
             rel="preload"
             className="hidden lg:flex gap-2 cursor-pointer"
           >
